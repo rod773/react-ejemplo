@@ -1,6 +1,6 @@
 {
   "name": "react-ejemplo",
-  "homepage": "https://github.io/rod773/react-ejemplo",
+  "homepage": "http://github.io/rod773/react-ejemplo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
